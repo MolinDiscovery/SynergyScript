@@ -556,7 +556,7 @@ class DashBoard:
     pass
 
 batches = read_and_process_files(directory_path)
-print(batches)
+#print(batches)
 
 # Initialize variables to hold batch names and compounds in each batch
 batch_names = []
@@ -653,6 +653,6 @@ dropdown.js_on_event("menu_item_click", callback)
 layout = column(dropdown, tabs)
 curdoc().add_root(layout)
 
-output_file('index.html', title='MD: Multi drug Machine Fishing | SynergyScript')
+output_file('index.html', title='SynergyScript | MolinDiscovery')
 
 show(layout)
