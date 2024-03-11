@@ -653,6 +653,6 @@ dropdown.js_on_event("menu_item_click", callback)
 layout = column(dropdown, tabs)
 curdoc().add_root(layout)
 
-#output_file('dashboard.html')
+output_file('index.html', title='MD: Multi drug Machine Fishing | SynergyScript')
 
 show(layout)
