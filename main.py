@@ -536,6 +536,7 @@ class PlotSynergy:
             p.xaxis.major_label_orientation = 1.3
             p.xaxis.major_label_text_font_size = '0pt' # turn off x-axis tick labels
             p.outline_line_color = None
+            p.yaxis.axis_label = "%Viability relative to CTRL"
 
             # Add the widget to the layout
             #layout = column(p, switch)
